@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <UserSecretsId>aspnet-LibrarySystem.Web-2530629E-1EB1-4361-9D8F-159320A7C668</UserSecretsId>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\LibrarySystem.DbContext\LibrarySystem.DbContext.csproj" />
+    <ProjectReference Include="..\LibrarySystem.Models\LibrarySystem.Models.csproj" />
+    <ProjectReference Include="..\LibrarySystem.Services\LibrarySystem.Services.csproj" />
+  </ItemGroup>
+
+</Project>

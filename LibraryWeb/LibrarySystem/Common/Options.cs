@@ -1,0 +1,32 @@
+﻿namespace LibrarySystem
+{
+    public enum Options
+    {
+        Exited,
+        Quit,
+        Back,
+        LoginMenu,
+        Login,
+        Register,
+        HomeMenu,
+        Member,
+        Librarian,
+        AddBook,
+        EditBook,
+        EditUsers,
+        EditUsername,
+        EditUserType,
+        ReturnBook,
+        ReserveBook,
+        LogOut,
+        RegisterUser,
+        CheckOutBook,
+        RenewBook,
+        SearchInCatalog,
+        SearchInCatalogByTitle,
+        SearchInCatalogByAuthor,
+        SearchInCatalogBySubject,
+        SearchInCatalogByPublishDate,
+        BookMenu
+    }
+}

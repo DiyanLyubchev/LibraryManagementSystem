@@ -1,0 +1,33 @@
+﻿@model AccountViewModel
+  
+@{
+    ViewData["Title"] = "BannedUsers";
+}
+
+<h1>Ban Users</h1>
+
+<link href="~/css/app.css" rel="stylesheet" />
+
+<div class="container">
+    <div class="row">
+        <div class="bg"></div>
+        <div class="bg bg2"></div>
+        <div class="bg bg3"></div>
+        <form asp-controller="Account" asp-action="BannedUsers" method="post">
+            <div class="form-group">
+                <label asp-for="Username" class="control-label"></label>
+                <input asp-for="Username" class="form-control" />
+                <span asp-validation-for="Username" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <button class="box" type="submit">Ban</button><br />
+                <strong>
+                    <a class="goback" asp-controller="Home" asp-action="Index">Go Back</a>
+                </strong>
+            </div>
+        </form>
+        <div class="col-2">
+            <img class="ban" src="~/images/Actions-im-ban-user-icon.png" alt="Sample Photo" />
+        </div>
+    </div>
+</div>

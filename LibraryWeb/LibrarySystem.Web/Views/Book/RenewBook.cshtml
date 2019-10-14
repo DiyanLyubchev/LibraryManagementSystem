@@ -1,0 +1,39 @@
+﻿@model RenewBookViewModel
+@{
+    ViewData["Title"] = "RenewBook";
+}
+
+<h1>Renew Book</h1>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="~/css/app.css" rel="stylesheet" />
+    <title></title>
+</head>
+<body>
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+    <div class="container">
+        <div class="row">
+
+            <form asp-controller="Book" asp-action="RenewBook" asp-route-BookId="@Model.BookId" method="post">
+                <div class="form-group">
+                    <label asp-for="Days" class="control-label"></label>
+                    <input asp-for="Days" class="form-control" />
+                    <span asp-validation-for="Days" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <button class="box" type="submit">Renew</button><br />
+                    <strong>
+                        <a href="javascript:history.go(-1)" title="Go to previous page" class="goback">Go back</a>
+                    </strong>
+                </div>
+            </form>
+            <div class="col-2">
+                <img class="baseSize" src="~/images/Books_HD_8314929977-1024x682.jpg" alt="Sample Photo" />
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

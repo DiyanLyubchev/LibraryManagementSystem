@@ -1,0 +1,22 @@
+﻿@model bool
+
+@if (Model)
+{
+<li class="nav-item">
+    <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Membership">Membership</a>
+</li>
+}
+else
+{
+<li class="nav-item">
+    <div class="dropdown">
+        <strong><button class="dropbtn">Menu</button></strong>
+        <div class="dropdown-content">
+            <a asp-controller="Book" asp-action="SearchBook"> Search Book</a><br />
+            <a asp-controller="Book" asp-action="LendBook"> Lend Book</a><br />
+            <a asp-controller="Book" asp-action="CheckMyBooks"> My Books</a><br />
+            <a asp-controller="Book" asp-action="ReserveBook"> Reserve Book</a><br />
+        </div>
+    </div>
+</li>
+}

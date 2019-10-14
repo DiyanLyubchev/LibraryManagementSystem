@@ -1,0 +1,92 @@
+[
+  {
+    "isbn": "9781593275846",
+    "title": "Assassin's creed",
+    "author": "Oliver Bowden",
+    "publishDate": "2011-11-10",
+    "publishers":  "Era" ,
+    "pages": 300,
+    "subject": "Romance"
+  },
+  {
+    "isbn": "9781449331818",
+    "title": "Pablo Escobar - my father",
+    "author": "Sebastian Santos",
+    "publishDate": "2014-01-02",
+    "publishers":  "BookTrading LTD" ,
+    "pages": 254,
+    "subject": "Biography"
+  },
+  {
+    "isbn": "9781449365035",
+    "title": "Speaking JavaScript",
+    "author": "Axel Rauschmayer",
+    "publishDate": "2014-02-01T00:00:00.000Z",
+    "publishers": "O'Reilly Media" ,
+    "pages": 460,
+    "subject": "JS Development"
+  },
+  {
+    "isbn": "9781491950296",
+    "title": "JavaScript Applications",
+    "author": "Eric Elliott",
+    "publishDate": "07-01-2007",
+    "publishers":  "O'Reilly Media" ,
+    "pages": 254,
+    "subject": "JS Power"
+  },
+  {
+    "isbn": "9781593277574",
+    "title": "Understanding ECMAScript 6",
+    "author": "Nicholas C. Zakas",
+    "publishDate": "2016-09-03T00:00:00.000Z",
+    "publishers":  "No Starch Press" ,
+    "pages": 352,
+    "subject": "ECMAScript 6"
+  },
+  {
+    "isbn": "9781491904244",
+    "title": "You Don't Know JS",
+    "author": "Kyle Simpson",
+    "publishDate": "2015-12-27T00:00:00.000Z",
+    "publishers":  "O'Reilly Media" ,
+    "pages": 278,
+    "subject": "No matter how much experience you have with JavaScript.",
+  },
+  {
+    "isbn": "9781449325862",
+    "title": "Git Pocket Guide",
+    "author": "Richard E. Silverman",
+    "publishDate": "2013-08-02T00:00:00.000Z",
+    "publishers":  "O'Reilly Media" ,
+    "pages": 234,
+    "subject": "This pocket guide is the perfect on-the-job companion to."
+  },
+  {
+    "isbn": "9781449337711",
+    "title": "Designing Evolvable Web APIs with ASP.NET",
+    "author": "Glenn Block, et al.",
+    "publishDate": "2014-04-07T00:00:00.000Z",
+    "publishers":  "O'Reilly Media" ,
+    "pages": 538,
+    "subject": "Design and build Web APIs for a broad range of clients—including browsers and mobile devices—that can adapt to change over time. This practical, hands-on guide takes you through the theory and tools you need to build evolvable HTTP services with Microsoft’s ASP.NET Web API framework. In the process, you’ll learn how design and implement a real-world Web API.",
+  },
+  {
+    "isbn": "9781449337712",
+    "title": "Designing Evolvable Web APIs with ASP.NET 2 Edition",
+    "author": "Glenn Block, et al.",
+    "publishDate": "2014-04-07T00:00:00.000Z",
+    "publishers": "O'Reilly Media",
+    "pages": 538,
+    "subject": "Design and build Web APIs for a broad range of clients—including browsers and mobile devices—that can adapt to change over time. This practical, hands-on guide takes you through the theory and tools you need to build evolvable HTTP services with Microsoft’s ASP.NET Web API framework. In the process, you’ll learn how design and implement a real-world Web API.",
+  },
+  {
+    "isbn": "9781449337712",
+    "title": "Designing Evolvable Web APIs with ASP.NET 2 Edition",
+    "author": "Glenn Block, et al.",
+    "publishDate": "2014-04-07T00:00:00.000Z",
+    "publishers": "O'Reilly Media",
+    "pages": 538,
+    "subject": "\"Design and build Web APIs for a broad range of clients—including browsers and mobile devices—that can adapt to change over time."
+  }
+]

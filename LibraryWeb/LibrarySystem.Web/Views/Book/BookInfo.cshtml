@@ -1,0 +1,25 @@
+﻿@model LibraryViewModel
+@{
+    ViewData["Title"] = "Book Info";
+}
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="~/css/app.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+    <h1 class="text-center">Welcome!</h1>
+    <hr />
+    <div>
+        @foreach (var book in Model.Books)
+        {
+            <a asp-controller="Book" asp-action="Details" asp-route-id="@book.Id"><p style="color:whitesmoke">@book.Title </p>  </a>
+        }
+    </div>
+</body>
+</html>
+

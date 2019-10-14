@@ -1,0 +1,43 @@
+﻿@model ReturnBookViewModel
+@{
+    ViewData["Title"] = "ReturnBook";
+}
+
+<h1>Return Book</h1>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="~/css/app.css" rel="stylesheet" />
+    <title></title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="bg"></div>
+            <div class="bg bg2"></div>
+            <div class="bg bg3"></div>
+            <form asp-controller="Book" asp-action="ReturnBook" asp-route-BookId="@Model.BookId" method="post">
+                <div class="form-group">
+                    <label asp-for="Rating" class="login-text"></label>
+                    <input asp-for="Rating" class="form-control" />
+                    <span asp-validation-for="Rating" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Comment" class="login-text"></label>
+                    <textarea asp-for="Comment" placeholder="Write something.." style=" width: 100%;"></textarea>
+                    <span asp-validation-for="Comment" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <button class="box" type="submit">Return</button><br />
+                    <strong>
+                        <a href="javascript:history.go(-1)" title="Go to previous page" class="goback">Go back</a>
+                    </strong>
+                </div>
+            </form>
+            <div class="col-2">
+                <img class="baseSize" src="~/images/return-audible-book-670x335.jpg" alt="Sample Photo" />
+            </div>
+        </div>
+    </div>
+</body>
+</html>

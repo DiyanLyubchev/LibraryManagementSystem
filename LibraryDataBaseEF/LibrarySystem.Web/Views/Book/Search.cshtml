@@ -1,0 +1,18 @@
+﻿@model AddBookViewModel
+@{
+    ViewData["Title"] = "Search";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+    <link href="~/css/StyleSheet.css" rel="stylesheet" />
+<h1>Search</h1>
+
+<ul>ISBN: @Model.ISBN</ul>
+<ul>Title: @Model.Title</ul>
+<ul>Author: @Model.Author</ul>
+<ul>Subject: @Model.Subject</ul>
+<ul>Page: @Model.Pages</ul>
+<ul>Publishers: @Model.Publishers</ul>
+<ul>PublishDate: @Model.PublishDate</ul>
+
+<a href="javascript:history.go(-1)" title="Go to previous page">Go back</a>
+
